@@ -1,70 +1,85 @@
-# Getting Started with Create React App
+# 🏛️ Legal AI Assistant
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+**AI-powered legal guidance system for common legal problems in India**
 
-## Available Scripts
+## 📋 Project Overview
 
-In the project directory, you can run:
+This Legal AI Assistant helps users understand their legal rights and get guidance on common legal issues in simple language. The system supports multiple languages (English, Hindi, Telugu) and provides instant legal awareness.
 
-### `npm start`
+## ✅ Module 1: User Interaction Module (COMPLETED)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### Features:
+- **Text Input** - Type your legal problem
+- **Voice Input** - 🎤 Speech-to-Text support
+- **Multi-language Support** - English, Hindi, Telugu
+- **Example Buttons** - Quick-start for common problems
+- **Professional UI** - Clean, modern, responsive design
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### Technologies Used:
+- **React.js** - Frontend framework
+- **CSS3** - Modern styling with animations
+- **Web Speech API** - Voice input functionality
+- **Responsive Design** - Mobile and desktop friendly
 
-### `npm test`
+## 🚀 Getting Started
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Prerequisites:
+- Node.js (v14 or higher)
+- npm or yarn
 
-### `npm run build`
+### Installation:
+```bash
+# Clone the repository
+git clone https://github.com/Indusree21/Legal-ai-project.git
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+# Navigate to project directory
+cd Legal-ai-project/legal-ai-ui
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+# Install dependencies
+npm install
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+# Start development server
+npm start
+```
 
-### `npm run eject`
+### Usage:
+1. Open `http://localhost:3000` in your browser
+2. Select your preferred language
+3. Type your legal problem or use voice input
+4. Click example buttons for quick testing
+5. Submit to get legal guidance
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## 📁 Project Structure
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+```
+legal-ai-ui/
+├── src/
+│   ├── App.js          # Main component (Module 1)
+│   ├── App.css         # Styling
+│   └── index.js        # React entry point
+├── public/
+│   └── index.html      # HTML template
+└── package.json        # Dependencies
+```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## 🔮 Upcoming Modules
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+- **Module 2**: Problem Understanding (NLP)
+- **Module 3**: Legal Knowledge Base
+- **Module 4**: RAG Engine (Core Brain)
+- **Module 5**: Legal Explanation Module
+- **Module 6**: FIR Visualizer & Drafter
+- **Module 7**: Safety & Bias Detection
+- **Module 8**: Disclaimer & Ethics
 
-## Learn More
+## 🤝 Contributing
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+This is a college project. Contributions and suggestions are welcome!
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## 📄 License
 
-### Code Splitting
+This project is for educational purposes.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+---
 
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+**Built with ❤️ for legal awareness in India**
